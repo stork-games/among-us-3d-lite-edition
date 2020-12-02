@@ -7,11 +7,11 @@ ModelImporter:
       74: 6093225430303232669
     second: Armature|ArmatureAction.002
   - first:
-      74: 238790675693666876
-    second: Armature|ArmatureAction.002 (1)
+      74: -5252816984213320552
+    second: walking
   - first:
-      74: -115514201211619974
-    second: Armature|ArmatureAction.002 (2)
+      74: 238790675693666876
+    second: idle
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -70,7 +70,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction.002 (1)
+      name: walking
       takeName: Armature|ArmatureAction.002
       internalID: 0
       firstFrame: 0
@@ -81,7 +81,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -99,10 +99,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction.002 (2)
+      name: idle
       takeName: Armature|ArmatureAction.002
       internalID: 0
-      firstFrame: 19
+      firstFrame: 21
       lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
@@ -110,7 +110,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -146,8 +146,8 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
+    skinWeightsMode: 1
+    maxBonesPerVertex: 17
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
@@ -178,7 +178,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: Armature
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -186,7 +186,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
