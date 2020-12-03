@@ -8,7 +8,7 @@ public class MouseLook : MonoBehaviour
     [SerializeField] private float sensitivityX = 1.0f, sensitivityY = 1.0f;
 
     // Минимальное и максимальное вращение по оси X
-    [SerializeField] private float minX = -90.0f, maxX = 90.0f;
+    [SerializeField] private float minX = -45.0f, maxX = 45.0f;
 
     // Опции поворота
     private enum Options { X, Y, XandY }
